@@ -74,7 +74,7 @@ outputs/accounts/<account_id>/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo_url>
+git clone https://github.com/yaswanth0091/clara-automation-pipeline.git
 cd clara-automation-pipeline
 ```
 
