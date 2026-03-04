@@ -6,8 +6,8 @@
     "business_hours": null,
     "timezone": "EST",
     "emergency_definition": [
-      "gas station service emergency",
-      "general emergency call"
+      "general emergency call",
+      "gas station service emergency"
     ]
   },
   "call_transfer_protocol": "Attempt transfer immediately for emergency.",

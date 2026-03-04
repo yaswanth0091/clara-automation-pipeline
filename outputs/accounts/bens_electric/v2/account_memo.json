@@ -4,7 +4,7 @@
   "business_hours": {
     "days": "Monday to Friday",
     "hours": "8:00 AM - 5:00 PM",
-    "timezone": null
+    "timezone": "EST"
   },
   "office_address": null,
   "services_supported": [
@@ -12,11 +12,11 @@
     "electrical"
   ],
   "emergency_definition": [
-    "gas station service emergency",
-    "general emergency call"
+    "general emergency call",
+    "gas station service emergency"
   ],
-  "emergency_routing_rules": null,
-  "non_emergency_routing_rules": null,
+  "emergency_routing_rules": "Route to dispatch immediately.",
+  "non_emergency_routing_rules": "Send to voicemail.",
   "call_transfer_rules": "Caller can be transferred to the business owner if requested",
   "integration_constraints": null,
   "after_hours_flow_summary": null,

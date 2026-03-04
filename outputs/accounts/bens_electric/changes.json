@@ -11,12 +11,6 @@
       "new_type": "str",
       "old_value": null,
       "new_value": "8:00 AM - 5:00 PM"
-    },
-    "root['business_hours']['timezone']": {
-      "old_type": "str",
-      "new_type": "NoneType",
-      "old_value": "EST",
-      "new_value": null
     }
   },
   "values_changed": {
