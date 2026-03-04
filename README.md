@@ -322,16 +322,11 @@ outputs/accounts/<account_id>/v2/agent_spec.json
 2. Create a new voice agent.
 3. Open the generated file: `outputs/accounts/<account_id>/v2/agent_spec.json`
 4. Copy the `system_prompt` from this file.
-5. Paste it into the Retell agent configuration.
-6. Configure call transfer and fallback rules according to the generated specification.
+5. Select Single Prompt Agent in Retell AI
+6. Paste it into the Retell agent configuration.
+7. Configure call transfer and fallback rules according to the generated specification.
 
-### Example Fields Used by Retell:
 
-- `agent_name`
-- `system_prompt`
-- `call_transfer_protocol`
-- `fallback_protocol`
-- Business hours variables
 
 This step is **manual** because the Retell free tier does not allow automated API provisioning.
 
