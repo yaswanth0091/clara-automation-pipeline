@@ -3,7 +3,11 @@ import json
 def generate_agent_spec(account_data, version="v1"):
     business_hours = account_data["business_hours"]["hours"]
     timezone = account_data["business_hours"]["timezone"]
-
+    
+    # Format lists into readable strings
+    emergencies = ", ".join(account_data.get("emergency_definition", [])) or "Not specified"
+    transfer_rules = account_data.get("call_transfer_rules") or "Not specified"
+    
     system_prompt = f"""
 You are Clara, the AI answering agent.
 
@@ -27,8 +31,12 @@ AFTER HOURS FLOW:
 8. Ask if anything else is needed.
 9. Close politely.
 
+ACCOUNT SPECIFICS:
 Business hours: {business_hours}
 Timezone: {timezone}
+Emergency Definition: {emergencies}
+Call transfer rules: {transfer_rules}
+Fallback protocol: If transfer fails, apologize and confirm callback.
 
 Never mention internal tools.
 Ask only necessary routing questions.
@@ -37,13 +45,6 @@ Ask only necessary routing questions.
     return {
         "agent_name": f"{account_data['company_name']}_agent",
         "voice_style": "professional, calm, concise",
-        "system_prompt": system_prompt,
-        "key_variables": {
-            "business_hours": business_hours,
-            "timezone": timezone,
-            "emergency_definition": account_data["emergency_definition"]
-        },
-        "call_transfer_protocol": "Attempt transfer immediately for emergency.",
-        "fallback_protocol": "If transfer fails, apologize and confirm callback.",
+        "system_prompt": system_prompt.strip(),
         "version": version
     }

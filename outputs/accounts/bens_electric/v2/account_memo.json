@@ -12,8 +12,8 @@
     "service calls"
   ],
   "emergency_definition": [
-    "general emergency call",
-    "gas station service emergency"
+    "gas station service emergency",
+    "general emergency call"
   ],
   "emergency_routing_rules": "Route to dispatch immediately.",
   "non_emergency_routing_rules": "Send to voicemail.",
