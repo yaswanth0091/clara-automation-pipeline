@@ -1,0 +1,29 @@
+{
+  "account_id": "bens_electric",
+  "company_name": "the solutions",
+  "business_hours": {
+    "days": null,
+    "hours": null,
+    "timezone": "EST"
+  },
+  "office_address": null,
+  "services_supported": [
+    "service calls",
+    "electrical"
+  ],
+  "emergency_definition": [
+    "gas station service emergency",
+    "general emergency call"
+  ],
+  "emergency_routing_rules": null,
+  "non_emergency_routing_rules": null,
+  "call_transfer_rules": "Caller can be transferred to the business owner if requested",
+  "integration_constraints": null,
+  "after_hours_flow_summary": null,
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [
+    "Exact business hours not confirmed",
+    "Integration constraints not mentioned"
+  ],
+  "notes": "Extracted from transcript using rule-based extraction."
+}

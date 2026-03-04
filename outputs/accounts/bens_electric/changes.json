@@ -1,0 +1,28 @@
+{
+  "type_changes": {
+    "root['business_hours']['days']": {
+      "old_type": "NoneType",
+      "new_type": "str",
+      "old_value": null,
+      "new_value": "Monday to Friday"
+    },
+    "root['business_hours']['hours']": {
+      "old_type": "NoneType",
+      "new_type": "str",
+      "old_value": null,
+      "new_value": "8:00 AM - 5:00 PM"
+    },
+    "root['business_hours']['timezone']": {
+      "old_type": "str",
+      "new_type": "NoneType",
+      "old_value": "EST",
+      "new_value": null
+    }
+  },
+  "values_changed": {
+    "root['questions_or_unknowns'][0]": {
+      "new_value": "Company name not clearly identified",
+      "old_value": "Exact business hours not confirmed"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+Agent: We will divide the call handling into office hours and after hours.
+
+Agent: During office hours, who takes incoming calls?
+
+Ben: Right now it is just me who answers calls.
+
+Agent: Your main business line will forward calls to Clara.
+
+Ben: Yes. Currently I only have one business number which is my personal number. I also have another phone line that I will use for personal calls.
+
+Agent: Clara can answer calls when you decline or do not answer.
+
+Ben: Once my second number is ready, Clara can be the first contact and transfer calls to me if needed.
+
+Agent: For scheduling appointments or quotes, do you charge a visit fee?
+
+Ben: Yes. The service call fee is $115 to visit the job site. After that we charge hourly in half hour increments.
+
+Agent: Should Clara mention the service fee during calls?
+
+Ben: Customers should know about it before booking. Clara can mention the service fee if customers ask.
+
+Agent: Where should we send notifications for new calls?
+
+Ben: Send email notifications to info@benselectricalsolutions.com and SMS notifications to my phone.
+
+Agent: Now let's discuss after hours behaviour.
+
+Agent: Do you dispatch emergency calls after hours?
+
+Ben: We normally do not take emergency calls after hours except for one property manager.
+
+Agent: Which property manager?
+
+Ben: GNM Pressure Washing. They manage about 20 gas stations we service.
+
+Agent: Should their calls bypass Clara?
+
+Ben: Yes, their number should be allowed to bypass Clara and reach me directly.
+
+Agent: What are your working hours?
+
+Ben: Monday to Friday around 8:00 AM to 5:00 PM.
+
+Agent: The website currently shows 8:00 AM to 4:30 PM.
+
+Ben: Yes but usually we operate until 5:00 PM.
