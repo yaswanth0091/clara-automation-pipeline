@@ -8,8 +8,8 @@
   },
   "office_address": null,
   "services_supported": [
-    "service calls",
-    "electrical"
+    "electrical",
+    "service calls"
   ],
   "emergency_definition": [
     "general emergency call",
